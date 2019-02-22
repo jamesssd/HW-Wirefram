@@ -3,11 +3,13 @@
     text-align: center;
 }
 
-.header {
+header {
     padding: 20px;
     font-size:20px;
     background: #ebebeb;
-    clear: both;
+    position: absolute;
+    top: 0;
+    left: 0;
     
 }
 
