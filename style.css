@@ -3,59 +3,104 @@
     text-align: center;
 }
 
-header {
-    padding: 20px;
-    font-size:20px;
+.header {
     background: #ebebeb;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.navigation {
+    background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+h1, h2, h3 {
+    width: 50%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 18px;
+}
+
+.footer {
+    background: #ebebeb;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both;
+    top: 30%;
     
 }
 
-#nav{
-    padding: 20px;
-    font-size:20px;
-    background: #ebebeb;
-       
-}
-
-#body {
-    font-family: Arial, Helvetica, sans-serif,
+.mainsection {
+    font-family: Arial, Helvetica, sans-serif;
     color: #777;
-    background: #777;
     width: 960px;
     font-size: 18px;
-    background: #ebebeb;
 }
 
-#article {
-    color: #ebebeb;
-    background: #777;
-}
-
-.para {
+.containerheading {
     color: #777;
-    background: #ebebeb;
-    float: left;
 }
 
-#section {
+.section {
+    position: relative;
     width: 495px;
-    background: #ebebeb;
-    float: left;
-}
-
-#aside {
-    background: #ebebeb;
-    float: right;
-    width: 495px;
-}
-
-#footer {
+    height: 300px;
+    border: 3px solid red;
     padding: 20px;
-    clear: both;
+    background: #ebebeb;
+}
+  
+.article {
+    position: absolute;
+    top: 25%;
+    width: 495px;
+    height: 120px;
+    border: 3px solid blue;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 12px;
+    background: #ebebeb; 
+} 
+  
+.aside {
+    position: absolute;
+    left: 45%; 
+    bottom: 0%;
+    width: 495px;
+    height: 300px;
+    border: 3px solid green; 
+    background: #ebebeb; 
+} 
+
+body {
+    margin: right;
+    width: 960px;
+}
+
+.pagewrapped {
+    width: 800px;
+     margin: 0 auto;
+}
+
+.article {
+    padding: 10px;
     background: #ebebeb;
 
+}
+
+.heading {
+    position: relative;
+    background: #ebebeb;
+    color: #777
+    
+}
+
+.paragraph {
+    background: #ebebeb;
+    
 }
 
