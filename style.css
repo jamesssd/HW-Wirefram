@@ -1,106 +1,84 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    background: #777;
+    color: #777;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
 }
 
 .header {
-    background: #ebebeb;
-    padding: 20px;
-    margin-bottom: 5px;
+    background-color: #ebebeb;
+    padding: 20px 0 20px 0;
+    margin: Opx auto 20px auto;
+    font-size: 18px;
 }
 
 .navigation {
-    background: #ebebeb;
+    background-color: #ebebeb;
     padding: 20px;
-    margin-bottom: 10px;
-
-}
-
-h1, h2, h3 {
-    width: 50%;
-    height: 60px;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    font-size: 18px;
-}
-
-.footer {
-    background: #ebebeb;
-    padding: 10px;
-    margin-top: 20px;
-    clear: both;
-    top: 30%;
-    
-}
-
-.mainsection {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    width: 960px;
-    font-size: 18px;
-}
-
-.containerheading {
-    color: #777;
+    margin: 20px auto 10px auto;
+    font-size: 18px;   
 }
 
 .section {
-    position: relative;
-    width: 495px;
-    height: 300px;
-    border: 3px solid red;
+    background: #ebebeb;
     padding: 20px;
-    background: #ebebeb;
-}
-  
-.article {
-    position: absolute;
-    top: 25%;
+    margin: 25px auto;
+    float: left;
     width: 495px;
-    height: 120px;
-    border: 3px solid blue;
+    height: 310px;
+    color:#777;
+}
+
+article {
+    background: #777;
+    color: #ebebeb;
+    height: 55%;
+    margin: 25px 10px;
+    padding: 30px 10px;
+    width: 70%;
+}
+
+.h1 {
+    color: #777;
+    background: #ebebeb;
+    height: 33%;
+    margin: 10px;
     padding: 10px;
-    font-size: 18px;
-    margin-right: 12px;
-    background: #ebebeb; 
-} 
-  
+}
+
+.p {
+    color: #777;
+    background: #ebebeb;
+    height: 33%;
+}
 .aside {
-    position: absolute;
-    left: 45%; 
-    bottom: 0%;
-    width: 495px;
-    height: 300px;
-    border: 3px solid green; 
-    background: #ebebeb; 
-} 
-
-body {
-    margin: right;
-    width: 960px;
+    background-color: #ebebeb;
+    padding: 0px;
+    margin: 20px auto;
+    font-size: 18px;
+    width: 440px;
+    height: 310px;
+    position: absolute;  
+    bottom: 38%;
+    left: 53%;
 }
 
-.pagewrapped {
-    width: 800px;
-     margin: 0 auto;
+.footer {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 10px auto 20px auto;
+    font-size: 18px;
+    clear: both;
+    top: 80%;
 }
 
-.article {
-    padding: 10px;
-    background: #ebebeb;
-
+.clearfix {
+	overflow: auto;
 }
-
-.heading {
-    position: relative;
-    background: #ebebeb;
-    color: #777
-    
-}
-
-.paragraph {
-    background: #ebebeb;
-    
-}
-
